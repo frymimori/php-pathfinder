@@ -22,7 +22,6 @@
 	$c = AvolittyPathfinderA($a, $b, $c);
 	$a *= $b;
 	$d = 0;
-	print_r($c[1] . "\n\n");
 
 	while ($a != $d) {
 		echo " " . $c[0][$d];
