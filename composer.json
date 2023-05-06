@@ -1,0 +1,43 @@
+{
+    "authors": [
+        {
+            "name": "Avolitty",
+            "email": "avolitty@gmail.com",
+            "homepage": "https://avolitty.com",
+            "role": "Developer"
+        }
+    ],
+    "description": "Create shortest path traversals in grid graphs using PHP with a fast and unique pathfinding algorithm.",
+    "funding": [
+        {
+            "type": "Paid Tier",
+            "url": "https://avolitty.com/pricing/"
+        }
+    ],
+    "homepage": "https://github.com/avolitty/php-avolitty-pathfinder",
+    "keywords": [
+        "2d-engine",
+        "3d-engine",
+        "a-star",
+        "algorithm",
+        "compatibility",
+        "diagonal",
+        "dijkstra",
+        "fast",
+        "game-development",
+        "maze-solver",
+        "minimal",
+        "module",
+        "navigation",
+        "obstacle-avoidance",
+        "pathfinder",
+        "pathing",
+        "plotting",
+        "portable",
+        "shortest-path",
+        "unique"
+    ],
+    "license": "Free Tier",
+    "name": "avolitty/pathfinder",
+    "require": {}
+}
