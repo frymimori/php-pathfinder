@@ -10,7 +10,7 @@
     "description": "Create shortest path traversals in grid graphs using PHP with a fast and unique pathfinding algorithm.",
     "funding": [
         {
-            "type": "Paid Tier",
+            "type": "Pricing Tiers",
             "url": "https://avolitty.com/pricing/"
         }
     ],
