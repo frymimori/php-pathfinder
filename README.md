@@ -20,22 +20,21 @@ Create shortest path traversals in grid graphs using PHP with a fast and unique 
 - Traverses safely within bounds of a rectangular grid
 
 #### Usage
-Clone the repository in the current directory with `git`.
+Install the Composer module in the current directory with `composer`.
 
 ``` console
-git clone https://github.com/avolitty/php-avolitty-pathfinder.git
+composer require avolitty/pathfinder
 ```
 
-Navigate to the cloned repository's root directory with `cd`.
-
-``` console
-cd php-avolitty-pathfinder
-```
-
-The following example uses code from [test.php](https://github.com/avolitty/php-avolitty-pathfinder/blob/main/test.php) to traverse shortest paths.
+Include the module in PHP with `require_once()` in a file named `test.php`.
 
 ``` php
-require_once("src/avolitty-pathfinder.php");
+require_once("vendor/avolitty/pathfinder/src/avolitty-pathfinder.php");
+```
+
+The following example uses code from [/vendor/avolitty/pathfinder/test.php](https://github.com/avolitty/php-avolitty-pathfinder/blob/main/test.php) to traverse shortest paths.
+
+``` php
 $a = 15;
 $b = 11;
 $c = array(
