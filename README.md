@@ -26,7 +26,7 @@ Install the Composer module in the current directory with `composer`.
 composer require avolitty/pathfinder
 ```
 
-Include the module in PHP with `require_once()` in a file named `test.php`.
+Include the module in a PHP file named `test.php` with `require_once()`.
 
 ``` php
 require_once("vendor/avolitty/pathfinder/src/avolitty-pathfinder.php");
