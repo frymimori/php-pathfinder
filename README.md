@@ -23,7 +23,7 @@ Create shortest path traversals in grid graphs using PHP with a fast and unique 
 Clone the repository in the current directory with `git`.
 
 ``` console
-git clone https://github.com/avolitty/c-avolitty-pathfinder.git
+git clone https://github.com/avolitty/php-avolitty-pathfinder.git
 ```
 
 Navigate to the cloned repository's root directory with `cd`.
