@@ -37,7 +37,6 @@
         "shortest-path",
         "unique"
     ],
-    "license": "Free Tier",
     "name": "avolitty/pathfinder",
     "require": {}
 }
