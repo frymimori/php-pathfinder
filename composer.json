@@ -38,5 +38,6 @@
         "unique"
     ],
     "name": "avolitty/pathfinder",
-    "require": {}
+    "require": {},
+    "version": "v1.0.2"
 }

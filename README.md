@@ -1,17 +1,21 @@
 ## PHP Avolitty Pathfinder
 
+#### Author
+Avolitty - [https://avolitty.com](https://avolitty.com)
+
 #### Description
 Create shortest path traversals in grid graphs using PHP with a fast and unique pathfinding algorithm.
 
 - All versions of PHP supported without recompiling binaries or including extensions
+- Considers C programming constraints relevant to PHP
 - Defines a destination, obstacles, a source and traversable spaces
 - Defines grid points with 1-byte strings instead of 8-byte integers
 - Fast grid pathfinding speed without A* or Dijkstra algorithms
 - Guarantees the shortest path from a source to a destination with obstacle avoidance
 - Maps traversal waypoint coordinates efficiently based on a count of adjacent obstacles
 - Minified and readable code with single-letter variable names
-- Navigates in 8 directions with diagonal and non-diagonal movement
 - Navigates in 4 directions with non-diagonal movement only
+- Navigates in 8 directions with diagonal and non-diagonal movement
 - Optimized for calculation speed and minimal memory usage
 - Path trees are traversed and reversed efficiently in existing grid memory
 - Returns a count of spaces traversed and a marked traversal path
@@ -19,20 +23,24 @@ Create shortest path traversals in grid graphs using PHP with a fast and unique 
 - Traversal paths auto-correct with natural-looking traversal
 - Traverses safely within bounds of a rectangular grid
 
+#### License Tiers
+- Free Tier - $0 for evaluation and testing before subscribing to Paid Tier
+- Paid Tier - [$10 monthly subscription](https://avolitty.com/subscribe/) for business and personal usage
+
 #### Usage
-Install the Composer module in the current directory with `composer`.
+Install the Composer module in the current directory with the command `composer`.
 
 ``` console
 composer require avolitty/pathfinder
 ```
 
-Include the module in a PHP file named `test.php` with `require_once()`.
+Include the module in the file `test.php` with the function `require_once()`.
 
 ``` php
 require_once("vendor/avolitty/pathfinder/src/avolitty-pathfinder.php");
 ```
 
-The following example uses code from [/vendor/avolitty/pathfinder/test.php](https://github.com/avolitty/php-avolitty-pathfinder/blob/main/test.php) to traverse shortest paths.
+The following example uses code from the file [/vendor/avolitty/pathfinder/test.php](https://github.com/avolitty/php-avolitty-pathfinder/blob/main/test.php) to traverse shortest paths.
 
 ``` php
 $a = 15;
@@ -54,7 +62,7 @@ $c = array(
 	"0", "2", "0", "0", "0", "0", "0", "0", "0", "0", "0",
 	"0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"
 );
-$c = AvolittyPathfinderA($a, $b, $c);
+$c = avolittyPathfinderA($a, $b, $c);
 $a *= $b;
 $d = 0;
 
@@ -69,9 +77,9 @@ while ($a != $d) {
 }
 ```
 
-`AvolittyPathfinderA()` traverses in 8 directions diagonally and non-diagonally.
+The function `avolittyPathfinderA()` traverses in 8 directions diagonally and non-diagonally.
 
-`AvolittyPathfinderB()` traverses in 4 directions non-diagonally.
+The function `avolittyPathfinderB()` traverses in 4 directions non-diagonally.
 
 The return value variable `$c` is an `array` with 2 values.
 
@@ -83,7 +91,7 @@ The first argument variable `$a` is an `integer` defined as the height of the gr
 
 The second argument variable `$b` is an `integer` defined as the width of the grid graph.
 
-The result of `$a * $b` must be within the bounds of `PHP_INT_MAX`.
+The result of `$a * $b` must be within the bounds of the constant `PHP_INT_MAX`.
 
 The third argument variable `$c` is an `array` defined as the grid graph for pathfinding.
 
@@ -100,7 +108,7 @@ The grid must have a single source `"1"` and a single destination `"2"`.
 
 If the destination `"2"` can't be reached, the grid path is unmodified and the return value `$c[1]` is defined as `0`.
 
-The output from executing `php test.php` is the grid graph with the shortest path traversal spaces defined as `"4"`.
+The output from the command `php test.php` is the grid graph with the shortest path traversal spaces defined as `"4"`.
 
 ``` console
 php test.php
