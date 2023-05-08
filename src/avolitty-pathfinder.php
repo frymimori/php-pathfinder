@@ -1,5 +1,5 @@
 <?php
-	function AvolittyPathfinderA($a, $b, $c) {
+	function avolittyPathfinderA($a, $b, $c) {
 		$d = $a * $b;
 		$e = $d;
 
@@ -133,7 +133,7 @@
 				) &&
 				$i != $m
 			) {
-				$c = AvolittyPathfinderC($c, $a, $b, $e, $d, $f, $g, $h, $l, $m, 0, 0);
+				$c = avolittyPathfinderC($c, $a, $b, $e, $d, $f, $g, $h, $l, $m, 0, 0);
 
 				if ($c[3] != 0) {
 					$j = 1;
@@ -173,7 +173,7 @@
 		);
 	}
 
-	function AvolittyPathfinderB($a, $b, $c) {
+	function avolittyPathfinderB($a, $b, $c) {
 		$d = $a * $b;
 		$e = $d;
 
@@ -307,7 +307,7 @@
 				) &&
 				$i != $m
 			) {
-				$c = AvolittyPathfinderD($c, $a, $b, $e, $d, $f, $g, $h, $l, $m, 0, 0);
+				$c = avolittyPathfinderD($c, $a, $b, $e, $d, $f, $g, $h, $l, $m, 0, 0);
 
 				if ($c[3] != 0) {
 					$j = 1;
@@ -347,7 +347,7 @@
 		);
 	}
 
-	function AvolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l) {
+	function avolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l) {
 		$m = $j;
 		$n = 0;
 		$o = intval($e <= $g) + intval($e == $g);
@@ -425,7 +425,7 @@
 											$f != $h
 										)
 									) {
-										$a = AvolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+										$a = avolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 										if ($a[3] != 0) {
 											$n = $a[3];
@@ -535,7 +535,7 @@
 											$f != $h
 										)
 									) {
-										$a = AvolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+										$a = avolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 										if ($a[3] != 0) {
 											$n = $a[3];
@@ -689,7 +689,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -827,7 +827,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -944,7 +944,7 @@
 												$f != $h
 											)
 										) {
-											$a = AvolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+											$a = avolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 											if ($a[3] != 0) {
 												$n = $a[3];
@@ -1099,7 +1099,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -1237,7 +1237,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -1354,7 +1354,7 @@
 												$f != $h
 											)
 										) {
-											$a = AvolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+											$a = avolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 											if ($a[3] != 0) {
 												$n = $a[3];
@@ -1473,7 +1473,7 @@
 											$f != $h
 										)
 									) {
-										$a = AvolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+										$a = avolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 										if ($a[3] != 0) {
 											$n = $a[3];
@@ -1583,7 +1583,7 @@
 											$f != $h
 										)
 									) {
-										$a = AvolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+										$a = avolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 										if ($a[3] != 0) {
 											$n = $a[3];
@@ -1737,7 +1737,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -1875,7 +1875,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -1992,7 +1992,7 @@
 												$f != $h
 											)
 										) {
-											$a = AvolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+											$a = avolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 											if ($a[3] != 0) {
 												$n = $a[3];
@@ -2147,7 +2147,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -2285,7 +2285,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -2402,7 +2402,7 @@
 												$f != $h
 											)
 										) {
-											$a = AvolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+											$a = avolittyPathfinderC($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 											if ($a[3] != 0) {
 												$n = $a[3];
@@ -2496,7 +2496,7 @@
 		return $a;
 	}
 
-	function AvolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l) {
+	function avolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l) {
 		$m = $j;
 		$n = 0;
 		$o = intval($e <= $g) + intval($e == $g);
@@ -2575,7 +2575,7 @@
 											$f != $h
 										)
 									) {
-										$a = AvolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+										$a = avolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 										if ($a[3] != 0) {
 											$n = $a[3];
@@ -2686,7 +2686,7 @@
 											$f != $h
 										)
 									) {
-										$a = AvolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+										$a = avolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 										if ($a[3] != 0) {
 											$n = $a[3];
@@ -2835,7 +2835,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -2951,7 +2951,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -3095,7 +3095,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -3211,7 +3211,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -3360,7 +3360,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -3476,7 +3476,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -3620,7 +3620,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -3736,7 +3736,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -3853,7 +3853,7 @@
 											$f != $h
 										)
 									) {
-										$a = AvolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+										$a = avolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 										if ($a[3] != 0) {
 											$n = $a[3];
@@ -3964,7 +3964,7 @@
 											$f != $h
 										)
 									) {
-										$a = AvolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+										$a = avolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 										if ($a[3] != 0) {
 											$n = $a[3];
@@ -4113,7 +4113,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -4229,7 +4229,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -4373,7 +4373,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -4489,7 +4489,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -4638,7 +4638,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -4754,7 +4754,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -4898,7 +4898,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
@@ -5014,7 +5014,7 @@
 													$f != $h
 												)
 											) {
-												$a = AvolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
+												$a = avolittyPathfinderD($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l);
 
 												if ($a[3] != 0) {
 													$n = $a[3];
