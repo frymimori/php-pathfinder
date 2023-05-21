@@ -25,7 +25,7 @@ Create shortest path traversals in grid graphs using PHP with a fast and unique 
 
 #### License Tiers
 - Free Tier - $0 for evaluation and testing before subscribing to Paid Tier
-- Paid Tier - [$10 monthly subscription](https://avolitty.com/subscribe/) for business and personal usage
+- Paid Tier - [$1 monthly subscription](https://avolitty.com/subscribe/) for business and personal usage
 
 #### Usage
 Install the Composer module in the current directory with the command `composer`.
