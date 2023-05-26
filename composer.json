@@ -8,12 +8,6 @@
         }
     ],
     "description": "Create shortest path traversals in grid graphs using PHP with a fast and unique pathfinding algorithm.",
-    "funding": [
-        {
-            "type": "Pricing Tiers",
-            "url": "https://avolitty.com/pricing/"
-        }
-    ],
     "homepage": "https://github.com/avolitty/php-avolitty-pathfinder",
     "keywords": [
         "2d-engine",
@@ -39,5 +33,5 @@
     ],
     "name": "avolitty/pathfinder",
     "require": {},
-    "version": "v1.0.3"
+    "version": "v1.0.4"
 }

@@ -1,8 +1,5 @@
 ## PHP Avolitty Pathfinder
 
-#### Author
-Avolitty - [https://avolitty.com](https://avolitty.com)
-
 #### Description
 Create shortest path traversals in grid graphs using PHP with a fast and unique pathfinding algorithm.
 
@@ -22,10 +19,6 @@ Create shortest path traversals in grid graphs using PHP with a fast and unique 
 - Traversal direction calculation is optimized with minimal conditional statements
 - Traversal paths auto-correct with natural-looking traversal
 - Traverses safely within bounds of a rectangular grid
-
-#### License Tiers
-- Free Tier - $0 for evaluation and testing before subscribing to Paid Tier
-- Paid Tier - [$1 monthly subscription](https://avolitty.com/subscribe/) for business and personal usage
 
 #### Usage
 Install the Composer module in the current directory with the command `composer`.
