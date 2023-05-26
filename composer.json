@@ -31,7 +31,8 @@
         "shortest-path",
         "unique"
     ],
+    "license": "Apache-2.0",
     "name": "avolitty/pathfinder",
     "require": {},
-    "version": "v1.0.3"
+    "version": "v1.0.4"
 }
