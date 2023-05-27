@@ -1,5 +1,5 @@
 <?php
-	require_once("src/avolitty-pathfinder.php");
+	require_once("index.php");
 	$a = 15;
 	$b = 11;
 	$c = array(
@@ -19,7 +19,7 @@
 		"0", "2", "0", "0", "0", "0", "0", "0", "0", "0", "0",
 		"0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"
 	);
-	$c = AvolittyPathfinderA($a, $b, $c);
+	$c = pathfinderA($a, $b, $c);
 	$a *= $b;
 	$d = 0;
 

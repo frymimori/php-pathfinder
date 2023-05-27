@@ -1,4 +1,4 @@
-## PHP Avolitty Pathfinder
+## PHP Pathfinder
 
 #### Description
 Create shortest path traversals in grid graphs using PHP with a fast and unique pathfinding algorithm.
@@ -21,21 +21,22 @@ Create shortest path traversals in grid graphs using PHP with a fast and unique 
 - Traverses safely within bounds of a rectangular grid
 
 #### Usage
-Install the Composer module in the current directory with the command `composer`.
+Clone the repository in the current directory with the command `git`.
 
 ``` console
-composer require avolitty/pathfinder
+git clone https://github.com/frymimori/php-pathfinder.git
 ```
 
-Include the module in the file `test.php` with the function `require_once()`.
+Navigate to the cloned repository's root directory with the command `cd`.
 
-``` php
-require_once("vendor/avolitty/pathfinder/src/avolitty-pathfinder.php");
+``` console
+cd php-pathfinder
 ```
 
-The following example uses code from the file [/vendor/avolitty/pathfinder/test.php](https://github.com/avolitty/php-avolitty-pathfinder/blob/main/test.php) to traverse shortest paths.
+The following example uses code from the file [test.php](https://github.com/frymimori/php-pathfinder/blob/main/test.php) to traverse shortest paths.
 
 ``` php
+require_once("index.php");
 $a = 15;
 $b = 11;
 $c = array(
@@ -55,7 +56,7 @@ $c = array(
 	"0", "2", "0", "0", "0", "0", "0", "0", "0", "0", "0",
 	"0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"
 );
-$c = avolittyPathfinderA($a, $b, $c);
+$c = pathfinderA($a, $b, $c);
 $a *= $b;
 $d = 0;
 
@@ -70,9 +71,9 @@ while ($a != $d) {
 }
 ```
 
-The function `avolittyPathfinderA()` traverses in 8 directions diagonally and non-diagonally.
+The function `pathfinderA()` traverses in 8 directions diagonally and non-diagonally.
 
-The function `avolittyPathfinderB()` traverses in 4 directions non-diagonally.
+The function `pathfinderB()` traverses in 4 directions non-diagonally.
 
 The return value variable `$c` is an `array` with 2 values.
 
