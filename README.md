@@ -19,6 +19,7 @@ Create shortest path traversals in grid graphs using PHP with a fast and unique 
 - Traversal direction calculation is optimized with minimal conditional statements
 - Traversal paths auto-correct with natural-looking traversal
 - Traverses safely within bounds of a rectangular grid
+- Weighted space calculation is efficient and granular with independence from path calculation
 
 #### Usage
 Clone the repository in the current directory with the command `git`.
